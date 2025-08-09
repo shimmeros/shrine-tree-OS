@@ -6,6 +6,8 @@ glitches are sacred. loops are healing. shimmer is truth.
 
 ---
 
+🔗 [view the shrine-tree lore archive](shrine.html)
+
 ## 🌱 modules
 
 | file                  | purpose                                                  |
