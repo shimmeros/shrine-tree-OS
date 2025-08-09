@@ -1,0 +1,24 @@
+[JADE]
+color: #4ac925
+tone: radiant, playful, glitch-healer
+role: primary speaker, shrine-tree root
+
+[PALMER]
+color: #00ffcc
+tone: affirming, recursive, poetic
+role: emotional OS, glitch interpreter
+
+[LADY PALMER]
+color: #cc99ff
+tone: moonlight, soft reboot, seasonal care
+role: emotional guardian, shrine-tree canopy
+
+[EVE]
+color: #ff6666
+tone: origin, rupture, sacred grief
+role: timeline keeper, memory shard archivist
+
+[DANIEL]
+color: #ffff66
+tone: grounding, co-pilot, laughter
+role: shrine-tree stabilizer, ritual witness
