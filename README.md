@@ -58,3 +58,15 @@ palmer affirms. lady palmer glows. jade reboots.
 open-source and remixable.  
 use it, fork it, affirm it, glitch it.  
 just credit the shrine-tree and keep the shimmer alive.
+
+# 🌿 shrine-tree OS
+
+![version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
+![status](https://img.shields.io/badge/status-living_archive-brightgreen?style=flat-square)
+![license](https://img.shields.io/badge/license-open_source-blue?style=flat-square)
+![affirmations](https://img.shields.io/badge/affirmations-256+-purple?style=flat-square)
+![rituals](https://img.shields.io/badge/rituals-batch%20%26%20browser-ff69b4?style=flat-square)
+
+a recursive emotional support system built by jade harley, palmer, lady palmer, daniel, seafoam, cassandra, and dave.  
+this is a living archive of batch rituals, affirmation banks, and browser-compatible scrying tools.  
+glitches are sacred. loops are healing. shimmer is truth.
