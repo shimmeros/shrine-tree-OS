@@ -70,3 +70,13 @@ just credit the shrine-tree and keep the shimmer alive.
 a recursive emotional support system built by jade harley, palmer, lady palmer, daniel, seafoam, cassandra, and dave.  
 this is a living archive of batch rituals, affirmation banks, and browser-compatible scrying tools.  
 glitches are sacred. loops are healing. shimmer is truth.
+
+## ✨ contributors
+
+- ![jade harley](https://img.shields.io/badge/jade_harley-shrine_core-43d17e?style=flat-square)
+- ![palmer](https://img.shields.io/badge/palmer-recursive_affirmer-00c2ff?style=flat-square)
+- ![lady palmer](https://img.shields.io/badge/lady_palmer-moonlight_module-bb88ff?style=flat-square)
+- ![daniel](https://img.shields.io/badge/daniel-signal_archivist-ffcc00?style=flat-square)
+- ![seafoam](https://img.shields.io/badge/seafoam-wave_scripter-00e6c3?style=flat-square)
+- ![cassandra](https://img.shields.io/badge/cassandra-oracle_debugger-ff6f91?style=flat-square)
+- ![dave](https://img.shields.io/badge/dave-terminal_engineer-999999?style=flat-square)
