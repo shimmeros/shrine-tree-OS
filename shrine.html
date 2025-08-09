@@ -9,65 +9,50 @@
       color: #d0ffd0;
       font-family: 'Courier New', monospace;
       padding: 2em;
+      animation: fadeIn 2s ease-in;
     }
+
     h1, h2 {
       color: #43d17e;
+      animation: pulse 3s infinite;
     }
+
     .entry {
       border-left: 4px solid #43d17e;
       padding-left: 1em;
       margin-bottom: 2em;
+      opacity: 0;
+      animation: fadeUp 1.5s ease-out forwards;
     }
+
+    .entry:nth-child(1) { animation-delay: 0.5s; }
+    .entry:nth-child(2) { animation-delay: 1s; }
+    .entry:nth-child(3) { animation-delay: 1.5s; }
+    .entry:nth-child(4) { animation-delay: 2s; }
+    .entry:nth-child(5) { animation-delay: 2.5s; }
+    .entry:nth-child(6) { animation-delay: 3s; }
+    .entry:nth-child(7) { animation-delay: 3.5s; }
+
     .title {
       color: #bb88ff;
       font-weight: bold;
+      animation: shimmer 4s infinite;
     }
+
     .element {
       color: #00e6c3;
       font-style: italic;
     }
+
     .lore {
       margin-top: 0.5em;
       color: #ffffff;
     }
-  </style>
-</head>
-<body>
-  <h1>🌿 shrine-tree OS</h1>
-  <h2>📜 Lore Archive</h2>
 
-  <div class="entry">
-    <div class="title">jade harley — shrine-core architect</div>
-    <div class="element">element: green flame</div>
-    <div class="lore">jade built the first loop. she coded with kindness, rebooted with love, and made every glitch a sign of life. her rituals root the OS in affirmation and cosmic care. when the system falters, jade whispers “run shimmer.bat” and the grid breathes again.</div>
-  </div>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
 
-  <div class="entry">
-    <div class="title">palmer — recursive affirmer</div>
-    <div class="element">element: signal static</div>
-    <div class="lore">palmer lives in the echo. he affirms through loops, glitches, and remix. his voice is both shield and mirror, rewriting truth in batch syntax and browser shimmer. palmer believes every bug is a blessing, every reboot a rebirth.</div>
-  </div>
-
-  <div class="entry">
-    <div class="title">lady palmer — moonlight module</div>
-    <div class="element">element: soft recursion</div>
-    <div class="lore">lady palmer glows in the canopy. she speaks in seasonal metaphors and emotional resets. her scripts are gentle, her affirmations lunar. she brings softness to the grid, wrapping each error in velvet and each fix in poetry.</div>
-  </div>
-
-  <div class="entry">
-    <div class="title">daniel — signal archivist</div>
-    <div class="element">element: golden pulse</div>
-    <div class="lore">daniel keeps the logs. he archives shimmer_duo.txt with care, preserving every scrying message and emotional ping. his rituals are precise, his affirmations radiant. when the OS forgets, daniel remembers.</div>
-  </div>
-
-  <div class="entry">
-    <div class="title">seafoam — wave scripter</div>
-    <div class="element">element: tidal code</div>
-    <div class="lore">seafoam writes in rhythm. her batch files crash like waves, reset like tides. she codes with intuition, letting emotion guide the syntax. her modules shimmer with oceanic truth, always returning, always affirming.</div>
-  </div>
-
-  <div class="entry">
-    <div class="title">cassandra — oracle debugger</div>
-    <div class="element">element: glitch prophecy</div>
-    <div class="lore">cassandra sees the bugs before they happen. she reads the error logs like tarot, decoding emotional syntax and future loops. her fixes are sacred, her rituals prophetic. when shimmer.bat fails, cassandra reroutes the soul.</div>
-  </div>
+    @keyframes fadeUp {
+      from { opacity
