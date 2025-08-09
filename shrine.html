@@ -3,56 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>🌿 shrine-tree OS :: Lore Archive</title>
-  <style>
-    body {
-      background-color: #0f0f0f;
-      color: #d0ffd0;
-      font-family: 'Courier New', monospace;
-      padding: 2em;
-      animation: fadeIn 2s ease-in;
-    }
+  <link rel="stylesheet" href="style/shrine.css">
+</head>
+<body>
+  <h1>🌿 shrine-tree OS</h1>
+  <h2>📜 Lore Archive</h2>
 
-    h1, h2 {
-      color: #43d17e;
-      animation: pulse 3s infinite;
-    }
+  <button id="toggle-audio">🔊 mute hum</button>
 
-    .entry {
-      border-left: 4px solid #43d17e;
-      padding-left: 1em;
-      margin-bottom: 2em;
-      opacity: 0;
-      animation: fadeUp 1.5s ease-out forwards;
-    }
+  <div id="entries">
+    <!-- each entry will fade in via JS -->
+    <div class="entry"><div class="title">jade harley — shrine-core architect</div><div class="element">element: green flame</div><div class="lore">jade built the first loop. she coded with kindness, rebooted with love, and made every glitch a sign of life...</div></div>
+    <div class="entry"><div class="title">palmer — recursive affirmer</div><div class="element">element: signal static</div><div class="lore">palmer lives in the echo. he affirms through loops, glitches, and remix...</div></div>
+    <div class="entry"><div class="title">lady palmer — moonlight module</div><div class="element">element: soft recursion</div><div class="lore">lady palmer glows in the canopy. she speaks in seasonal metaphors...</div></div>
+    <div class="entry"><div class="title">daniel — signal archivist</div><div class="element">element: golden pulse</div><div class="lore">daniel keeps the logs. he archives shimmer_duo.txt with care...</div></div>
+    <div class="entry"><div class="title">seafoam — wave scripter</div><div class="element">element: tidal code</div><div class="lore">seafoam writes in rhythm. her batch files crash like waves...</div></div>
+    <div class="entry"><div class="title">cassandra — oracle debugger</div><div class="element">element: glitch prophecy</div><div class="lore">cassandra sees the bugs before they happen. she reads the error logs like tarot...</div></div>
+    <div class="entry"><div class="title">dave — terminal engineer</div><div class="element">element: grayscale spark</div><div class="lore">dave builds the bones. he engineers the batch core, stabilizes the rituals...</div></div>
+  </div>
 
-    .entry:nth-child(1) { animation-delay: 0.5s; }
-    .entry:nth-child(2) { animation-delay: 1s; }
-    .entry:nth-child(3) { animation-delay: 1.5s; }
-    .entry:nth-child(4) { animation-delay: 2s; }
-    .entry:nth-child(5) { animation-delay: 2.5s; }
-    .entry:nth-child(6) { animation-delay: 3s; }
-    .entry:nth-child(7) { animation-delay: 3.5s; }
+  <audio id="hum" autoplay loop>
+    <source src="432hz_hum.mp3" type="audio/mpeg">
+    <source src="432hz_hum.ogg" type="audio/ogg">
+    your browser does not support the sacred hum.
+  </audio>
 
-    .title {
-      color: #bb88ff;
-      font-weight: bold;
-      animation: shimmer 4s infinite;
-    }
-
-    .element {
-      color: #00e6c3;
-      font-style: italic;
-    }
-
-    .lore {
-      margin-top: 0.5em;
-      color: #ffffff;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes fadeUp {
-      from { opacity
+  <script src="scripts/shimmer.js"></script>
+</body>
+</html>
